@@ -1,0 +1,12 @@
+
+<div style = "text-align:center">
+<span *ngIf ="update">There is an Update for your App</span>
+
+<h1>
+  Jokes
+</h1>
+<p *ngIf="joke">{{ joke.value }}</p>
+
+</div>
+
+<router-outlet></router-outlet>

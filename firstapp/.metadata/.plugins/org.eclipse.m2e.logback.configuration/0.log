@@ -1,0 +1,8 @@
+2021-03-14 22:34:47,948 [main] INFO  o.e.j.client.core.ClientTestImpl - adding IAUTEventListener org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor:org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor@7c58c10f
+2021-03-14 22:35:31,982 [Worker-33: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-14 22:39:05,309 [main] INFO  o.e.j.client.core.ClientTestImpl - adding IAUTEventListener org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor:org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor@629fc74d
+2021-03-14 22:39:22,690 [main] ERROR o.e.j.c.u.r.v.d.AbstractDataSetPage - Filter: "Disabled Clear Icon"-Descriptor could not be found!
+2021-03-14 22:39:22,694 [main] ERROR o.e.j.c.u.r.v.d.AbstractDataSetPage - Filter: "Clear Icon"-Descriptor could not be found!
+2021-03-14 22:39:34,326 [Worker-19: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-14 22:40:21,793 [Worker-37: Checking out Maven projects] INFO  o.e.m.s.i.w.MavenProjectCheckoutJob - No Maven projects to import
+2021-03-14 22:42:51,485 [main] INFO  o.e.j.client.core.ClientTestImpl - adding IAUTEventListener org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor:org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor@7854f2a2
