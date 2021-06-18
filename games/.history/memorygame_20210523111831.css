@@ -1,0 +1,13 @@
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 782px;
+}
+.title {
+    text-align: center;
+}
+.container {
+    border
+}

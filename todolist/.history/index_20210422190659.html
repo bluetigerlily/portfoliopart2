@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Haley's Todo List</title>
+  </head>
+  <body>
+    <div class="container", id="containerbox">
+        <div class="textarea" id="textbox">
+            <label for="textbox">To do List</label>
+            <input type="textarea" id="textbox" value="" placeholder="Enter your To List Items Here">
+        </div>
+        <div class="button" id="addbtn">
+            <button type="submit" id="addbtn" onclick="addtolist()">Submit</button>
+        </div>
+        <div class="button" id="removebtn">
+            <button type="delete" id="removebtn" onclick="removefromlist()">Remove</button>
+        </div>
+        <div class="listarea" id="list"> 
+            <ul class="todolist" id="todolistlist">
+            </ul>
+        </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="todolist.js"></script>
+</html>

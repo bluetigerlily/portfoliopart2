@@ -1,0 +1,21 @@
+{
+  "name": "firebasewebbasics",
+  "version": "1.0.0",
+  "description": "firebase database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "haley",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.4.1"
+  }
+}

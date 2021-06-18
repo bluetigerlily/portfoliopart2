@@ -1,0 +1,19 @@
+
+.title {
+    justify-content: center;
+}
+.container {
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 781px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,5 @@
+
+tile :is(.ancestor, .parent, .child-box, .title, .subtitle ){
+    background: #9abc98;
+    color: #9abc98;
+}

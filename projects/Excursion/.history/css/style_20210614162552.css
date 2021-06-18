@@ -1,0 +1,21 @@
+html {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title {
+    font-family: Verdana;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-size:  50px;
+}
+.download {
+    color: aquamarine;
+    font-size: 16px;
+}
+video {
+    align-items: center;
+    justify-content: center;
+}

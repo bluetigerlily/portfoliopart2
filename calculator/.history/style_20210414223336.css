@@ -1,0 +1,13 @@
+html{
+    height: 100%;
+}
+.background
+{
+clip-path: inset(1% 9% 1% 9% round 20%);
+background: rgb(70, 184, 167);
+background: radial-gradientP{
+    circle,
+    rgba(70, 184, 167, 1) 0%,
+    rgba(55, 80, 219, 1) 100%;
+};
+}

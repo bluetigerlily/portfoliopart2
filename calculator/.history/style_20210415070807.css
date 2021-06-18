@@ -1,0 +1,105 @@
+.html {
+    height: 600px;
+}
+ table{
+     border: 1px solid black;
+     display: grid;
+     height: 600px;
+     grid-template-columns: 150px 150px 150px 150px;
+     clip-path: inset(1% 1% 1% 1% round 2%);
+     background-color: rgba(108, 60, 240, 0.623);
+     background-color: radial-gradient(
+     circle,
+     #7057b6 0%,
+     rgba(43, 67, 204, 0.945) 100%
+     );
+     justify-content: center;
+     cursor: pointer;
+
+ }
+ #display{
+   background-color: rgba(246, 244, 250, 0.938);
+     background-color: radial-gradient(
+     circle,
+     #f4f2f8 0%,
+     rgba(43, 67, 204, 0.945) 100%
+     );
+     justify-content: center;
+     grid-template-columns: repeat(4, 1fr);
+     cursor: pointer;
+     display: grid;
+     font-size: 1.9vmax;
+     border-radius: 8px;
+
+
+ }
+ .number{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(110, 72, 218, 0.623);
+    cursor: pointer;
+    background: #ededed;
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vmax;
+    border-radius: 8px;
+ }
+ .number:hover{background-color:rgba(139, 103, 167, 0.945)}
+.number:active{
+    background-color: rgba(139, 103, 167, 0.945);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+ .operator{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(108, 60, 240, 0.623);
+    cursor: pointer;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vmax;
+    border-radius: 8px;
+ }
+
+ .operator:hover{background-color:rgba(139, 103, 167, 0.945)}
+ .operator:active{
+    background-color: rgba(139, 103, 167, 0.945);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+ .clear{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(108, 60, 240, 0.623);
+    cursor: pointer;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vmax;
+    border-radius: 8px;
+ }
+ .clear:hover{background-color:rgba(139, 103, 167, 0.945)}
+ .clear:active{
+    background-color: rgba(139, 103, 167, 0.945);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+ .equalsign{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(108, 60, 240, 0.623);
+    cursor: pointer;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vmax;
+
+    
+ }
+ .equalsign:hover{background-color:rgba(139, 103, 167, 0.945)}
+ .equalsign:active{
+    background-color: rgba(139, 103, 167, 0.945);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}

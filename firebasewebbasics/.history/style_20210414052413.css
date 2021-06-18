@@ -1,0 +1,26 @@
+body{
+    background: #
+}
+h1 {
+font-weight: 300;
+font-size: 24px;
+}
+
+textarea {
+    border: 0px;
+    background: 0fff;
+    padding: 20px 0px;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+button{
+    background: #528bff;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    width: 64px;
+    height: 64px;
+    line-height: 38px;
+    border-raidus: 100%;
+}   

@@ -1,0 +1,1 @@
+isValidCreditCard => {str} {return}

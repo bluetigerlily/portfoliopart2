@@ -1,0 +1,19 @@
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 782px;
+    padding: 30px;
+    border-spacing: 10px;
+    justify-content: center;
+    al;
+}
+.title {
+    text-align: center;
+}
+.container {
+    border: 1px solid black;
+    text-align: center;
+
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+   <body>
+    <div id ="background">
+      <form name="calculator">
+         <table>
+            <tr>
+               <td colspan="4">
+                   <!-- <textarea rows = "1" colspan = "4" name = "display" id = "display" placeholder="Enter Your Math Here" onkeydown="input()"></textarea>  -->
+                  <input class="input" rows ="1" colspan= "4" name= "display" id = "display" type="text" placeholder="Enter Your Math Here" onkeydown="input()">
+                  <button class="subbtn" id = "submitbtn" onclick="submit()">Submit</button>
+               </td>
+            </tr>
+            <tr>
+               <td><input type="button" class="number" id="one" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+               <td><input type="button" class="number" id="two" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+               <td><input type="button" class="number" id="three" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+               <td><input type="button" class="operator" id="plus" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
+            </tr>
+            <tr>
+               <td><input type="button" class="number" id="four" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+               <td><input type="button" class="number" id="five" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+               <td><input type="button" class="number" id="six" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+               <td><input type="button" class="operator" id="minus" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
+            </tr>
+            <tr>
+               <td><input type="button" class="number" id="seven" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+               <td><input type="button" class="number" id="eight" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
+               <td><input type="button" class="number" id="nine" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
+               <td><input type="button" class="operator" id="times" name="times" value="x" onclick="calculator.display.value += '*'"></td>
+            </tr>
+            <tr>
+               <td><input type="button" class="clear" id="clear" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+               <td><input type="button" class="number" id="zero" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
+               <td><input type="button" class="equalsign" id="equalsign" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+               <td><input type="button" class="operator" id="division" name="div" value="/" onclick="calculator.display.value += '/'"></td>
+            </tr>
+         </table>
+      </form>
+      </div>
+
+
+      <script src="calculator.js"></script>
+      <script>
+         let input = document.querySelector(".input");
+         let subbtn = document.querySelector(".subbtn");
+         display.addEventListener("change", stateHandle);
+         subbtn.disabled = true;
+         function stateHandle(){
+            if (document.querySelector(".display").value=== ""){
+               subbtn.disabled = true;
+            } else {
+               subbtn.disabled = false;
+            }
+         }
+      </script>
+    </body>
+</html>

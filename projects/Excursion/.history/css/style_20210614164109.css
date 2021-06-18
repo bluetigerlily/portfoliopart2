@@ -1,0 +1,36 @@
+html {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana;
+}
+.title {
+    font-weight: normal;
+    font-size:  50px;
+    padding: 0.5em;
+    color: white;
+
+}
+.download {
+    color: aquamarine;
+    font-size: 16px;
+}
+.travelguide {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+.paratravelguide {
+    font-size: 21px;
+    color: gray;
+}
+.comingsoonphone a {
+color: aquamarine;
+font-size: 16px;
+}
+.comingsoonphone a
+
+
+

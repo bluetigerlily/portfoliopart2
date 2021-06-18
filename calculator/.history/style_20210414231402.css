@@ -1,0 +1,49 @@
+.html {
+    height: 100%;
+}
+ table{
+     border: 1px solid black;
+     height: 100%;
+     clip-path: inset(1% 1% 1% 1% round 4%);
+     background-color: rgba(108, 60, 240, 0.623);
+     background-color: radial-gradient(
+     circles,
+     #7057b6 0%,
+     rgba(43, 67, 204, 0.945) 100%
+     );
+ }
+ .number{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(108, 60, 240, 0.623);
+    cursor: pointer;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+ }
+ .number:hover{background-color:rgba(43, 67, 204, 0.945)}
+
+ .operator{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(108, 60, 240, 0.623);
+    cursor: pointer;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+ }
+ .clear{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(108, 60, 240, 0.623);
+    cursor: pointer;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+ }
+ .equalsign{
+    border: 1px solid rgba(248, 244, 244, 0.164);
+    box-shadow: 6px 10px 8px rgba(108, 60, 240, 0.623);
+    cursor: pointer;
+    background: #ededed;
+ }

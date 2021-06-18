@@ -1,0 +1,10 @@
+<html
+<head>
+  <meta charset="utf-8">
+  <title>Javascript Practice Exercises</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript" src="ap"
+</html>

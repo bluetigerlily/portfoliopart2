@@ -1,0 +1,1 @@
+var mainText = document.getElementById("mainText")

@@ -1,0 +1,20 @@
+#header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.outtercontainer {
+
+    display: flex;
+    background-color:grey;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercontainer {
+    padding: 30px;
+    display: relative-flex;
+    background-color: ligh
+}
+

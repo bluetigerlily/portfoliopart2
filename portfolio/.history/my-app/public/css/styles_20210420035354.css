@@ -1,0 +1,7 @@
+tile is-ancestor
+tile is-parent 
+tile is-child box
+tile :is(ancestor{
+    background: #9abc98;
+    color: #9abc98;
+}

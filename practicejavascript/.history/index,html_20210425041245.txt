@@ -1,0 +1,7 @@
+<head>
+  <meta charset="utf-8">
+  <title>Write a JavaScript function to repeat a string a specified times.</title>
+</head>
+<body>
+
+</body>

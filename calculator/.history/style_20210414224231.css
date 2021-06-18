@@ -1,0 +1,16 @@
+.html {
+    height: 100%;
+    clip-path: inset(1% 9% 1% 9% round 20%);
+    
+}
+ 
+.calculator{
+    height: 100%;
+    clip-path: inset(1% 9% 1% 9% round 20%);
+    background-color: rgb(70, 184, 167);
+    background-color: radial-gradient(
+    circles,
+    #48f3d9 0%,
+    rgba(55, 80, 219, 1) 100%
+    );
+}

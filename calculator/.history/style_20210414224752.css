@@ -1,0 +1,15 @@
+.html {
+    height: 100%;
+}
+ table{
+     border: 1px solid black;
+     height: 100%;
+     clip-path: inset(1% 1% 1% 1% round 4%);
+     background-color: rgb(5, 17, 255);
+     background-color: radial-gradient(
+     circles,
+     #f7f6fa 0%,
+     rgb(23, 39, 128) 100%
+     );
+ }
+ 
