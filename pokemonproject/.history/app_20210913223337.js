@@ -1,0 +1,8 @@
+function Dictionary() {
+
+    this.a
+
+
+
+
+}

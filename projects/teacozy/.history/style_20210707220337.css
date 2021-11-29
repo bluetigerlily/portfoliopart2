@@ -1,0 +1,30 @@
+html {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+}
+.headcontainer {
+    display: inline-flex;
+    padding: 19px;
+    justify-content: space-between;
+    flex-direction: row;
+  
+}
+.teacozy {
+
+}
+.mission {
+    text-decoration: underline;
+ text-align: right;
+
+}
+.featuredtea {
+    text-decoration: underline;
+    text: right;
+}
+.locations{
+    text-decoration: underline;
+    float: right;
+}

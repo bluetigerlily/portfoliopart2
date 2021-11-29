@@ -1,0 +1,63 @@
+html {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+.bodycontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+}
+.bodycontainer div {
+    padding: 5px;
+    background-color: black;
+    margin: auto;
+   
+}
+.ourmission {
+ 
+    opacity: 0.9;
+}
+.handpicked {
+
+    opacity: 0.9;
+}
+
+.headcontainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.headcontainer div{
+    padding: 10px;
+}
+.teacozy {
+ opacity: 0.9;
+ flex: 2;
+}
+
+.mission {
+    text-decoration: underline;
+    opacity: 0.9;
+    flex: 0.25;
+}
+.featuredtea {
+    text-decoration: underline;
+    opacity: 0.9;
+    flex: 0.25;
+    text-align: center;
+}
+.locations{
+    text-decoration: underline;
+    opacity: 0.9;
+    flex: 0.25;
+   
+}

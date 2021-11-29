@@ -1,0 +1,14 @@
+const body = document.body;
+
+const div = document.createElement('div');
+const strong = document.createElement(`strong`);
+
+//const div = document.querySelector(`div`);
+//div.innerText = `Hello World`;
+strong. = `Hello World 2`;
+
+//console.log(div.textContent); //shows all the divs
+
+//console.log(div.innerText); //only show whats visible on the HTML page
+
+body.append(div);

@@ -1,0 +1,10 @@
+function Dictionary() {
+
+    this.datastore = [];
+
+    
+
+
+
+
+}

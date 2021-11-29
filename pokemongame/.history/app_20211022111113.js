@@ -1,0 +1,7 @@
+
+let friend_one = `{
+
+
+
+
+}`;

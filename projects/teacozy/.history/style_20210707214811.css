@@ -1,0 +1,10 @@
+html {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.headcontainer {
+    display: flex;
+}
+h1 .tea

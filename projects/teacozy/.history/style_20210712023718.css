@@ -1,0 +1,179 @@
+html {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    width: 1200px;
+}
+
+.locationscontainer {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./images/img-locations-background.webp);
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+}
+
+.locationscontainer div {
+    margin: 15px;
+    flex-direction: row;
+}
+
+.locationstitle {
+    padding: auto;
+}
+.othercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.downtownlocation {
+    background-color: black;
+    opacity: 0.9;
+    width: 33%;
+    flex: 1;
+    height: 300px;
+}
+ 
+
+.eastbaysidelocation {
+    background-color: black;
+    opacity: 0.9;
+    width: 33%;
+    flex: 1;
+    height: 300px;
+}
+
+.oaklandlocation {
+    background-color: black;
+    opacity: 0.9;
+    width: 33%;
+    flex: 1;
+    height: 300px;
+}
+
+
+.subbodycontainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teaofthemonth {
+width: 83%;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.whatssleeping {
+width: 83%;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.imagescontainer {
+    display: flex;
+    width: 83%;
+    align-items: flex-start;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.imagescontainer div {
+    height: 200px;
+    width: 30%;
+    margin: 10px;
+}
+
+.image1 {
+    background-image: url(./images/img-berryblitz.jpg);
+    background-size: contain;
+  
+}
+.image2 {
+    background-image: url(./images/img-spiced-rum.jpg);
+    background-size: contain;
+  
+
+}
+.image3 {
+    background-image: url(./images/img-donut.webp);
+    background-size: contain;
+ 
+}
+.image4 {
+    background-image: url(./images/img-donut.webp);
+    background-size: contain;
+ 
+}
+.image5 {
+    background-image: url(./images/img-bedford-bizarre.jpg);
+    background-size: contain;
+    
+}
+
+.bodycontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/img-mission-background.jpg);
+    height: 700px;
+    width: 100%;
+}
+.bodycontainer div {
+    background-color: black;
+}
+.ourmission {
+    width: 100%;
+    text-align: center;
+}
+.handpicked {
+    width: 100%;
+    text-align: center;
+}
+
+.headcontainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 69px;
+    justify-content: center;
+}
+
+.teacozy {
+ opacity: 0.9;
+ flex: 2;
+}
+
+.mission {
+    text-decoration: underline;
+    opacity: 0.9;
+    flex: 0.25;
+}
+.featuredtea {
+    text-decoration: underline;
+    opacity: 0.9;
+    flex: 1;
+    text-align: center;
+}
+.locations{
+    text-decoration: underline;
+    opacity: 0.9;
+    flex: 0.25;
+   
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ 
+<title>Schedulator 9000</title>
+</head>
+<body>
+<header class ="title"><h1>Schedulator 9000</h1></header>
+
+<p style="color: #818284; font-family:'Segoe UI'">
+    The Resource view is used here to create a timetable for execution of a production project. You can group the view by the contacts or tasks that we have added to the schedule. The schedule uses custom CSS styling on some of its elements.				
+</p>		
+
+    <button onclick="group(1)">
+        Group by contacts</button>
+    <button onclick="group(4)">
+        Group by tasks</button>
+
+<div style="margin-top: 20px" id="calendar" style="height: 98%; width: 98%;">
+</div>
+
+
+
+
+</body>
+<script type="text/javascript" src="./app.js"></script>
+</html>

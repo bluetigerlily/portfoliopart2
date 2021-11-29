@@ -1,0 +1,29 @@
+html {
+    background-color: #D0D1ff;
+}
+#titleheader {
+    text-align: center;
+    justify-content: center;
+    background-color: #D0D1ff;
+    color: white;
+	-webkit-text-stroke: 1.5px #DEAAFF;
+}
+#monthAndYear {
+    text-align: center;
+    justify-content: center;
+    color: white;
+	font-size: 50px;
+	-webkit-text-stroke: 1.5px #DEAAFF;
+    background-color: #D0D1ff;
+
+}
+#calendar {
+    text-align: center;
+    justify-content: center;
+    background-color: #D0D1FF;
+    color: white;
+	font-size: 50px;
+	-webkit-text-stroke: 1.5px #DEAAFF;
+    border: 5px solid #D8BBFF;
+}
+

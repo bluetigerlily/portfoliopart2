@@ -1,0 +1,2 @@
+const js_style = () => {
+}

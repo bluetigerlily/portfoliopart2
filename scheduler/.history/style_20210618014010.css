@@ -1,0 +1,19 @@
+html {
+}
+#titleheader {
+    text-align: center;
+    justify-content: center;
+}
+#monthAndYear {
+    text-align: center;
+    justify-content: center;
+}
+#calendar {
+    text-align: center;
+    justify-content: center;
+    background-color: #D0D1FF;
+    color: white;
+	font-size: 50px;
+	-webkit-text-stroke: 1.5px #C0FDFF;
+}
+
