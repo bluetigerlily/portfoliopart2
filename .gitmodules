@@ -1,3 +1,6 @@
 [submodule "jamming"]
 	path = jamming
 	url = https://github.com/bluetigerlily/project.git
+[submodule "codeacademy-jamming-react/jamming"]
+	path = codeacademy-jamming-react/jamming
+	url = https://github.com/bluetigerlily/project.git
