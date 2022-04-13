@@ -1,2 +1,0 @@
-# portfoliopart2
-# project
